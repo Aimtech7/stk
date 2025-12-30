@@ -3,20 +3,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
 	<title type="text">RESOURCE CENTER</title>
 	<subtitle type="text"></subtitle>
-	<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org"/>
-	<id>https://friendsoflaketurkana.org/hope/index.php/resource-center</id>
+	<link rel="alternate" type="text/html" href="https://stk.example"/>
+	<id>https://stk.example/hope/index.php/resource-center</id>
 	<updated>2025-12-25T20:08:24+00:00</updated>
 	<author>
-		<name>Friends Of Lake Turkana</name>
+		<name>SERYEETAAB KAA CULTURAL HERITAGE ORGANIZATION (STK)</name>
 	</author>
 	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
-	<link rel="self" type="application/atom+xml" href="https://friendsoflaketurkana.org/hope/index.php/resource-center?format=feed&amp;type=atom"/>
+	<link rel="self" type="application/atom+xml" href="https://stk.example/hope/index.php/resource-center?format=feed&amp;type=atom"/>
 	<entry>
 		<title>Self motivation how to keep yourself</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/78-self-motivation-how-to-keep-yourself"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/78-self-motivation-how-to-keep-yourself"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/78-self-motivation-how-to-keep-yourself</id>
+		<id>https://stk.example/hope/index.php/resource-center/78-self-motivation-how-to-keep-yourself</id>
 		<author>
 			<name>Administrator</name>
 		</author>
@@ -28,10 +28,10 @@
 	</entry>
 	<entry>
 		<title>Business Cards Does Your Business</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/79-business-cards-does-your-business"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/79-business-cards-does-your-business"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/79-business-cards-does-your-business</id>
+		<id>https://stk.example/hope/index.php/resource-center/79-business-cards-does-your-business</id>
 		<author>
 			<name>Administrator</name>
 		</author>
@@ -43,10 +43,10 @@
 	</entry>
 	<entry>
 		<title>Free Philippine Real Estate Ads Forums</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/80-free-philippine-real-estate-ads-forums"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/80-free-philippine-real-estate-ads-forums"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/80-free-philippine-real-estate-ads-forums</id>
+		<id>https://stk.example/hope/index.php/resource-center/80-free-philippine-real-estate-ads-forums</id>
 		<author>
 			<name>Administrator</name>
 		</author>
@@ -58,10 +58,10 @@
 	</entry>
 	<entry>
 		<title>Deciphering Marketing Lingo For Small</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/81-deciphering-marketing-lingo-for-small"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/81-deciphering-marketing-lingo-for-small"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/81-deciphering-marketing-lingo-for-small</id>
+		<id>https://stk.example/hope/index.php/resource-center/81-deciphering-marketing-lingo-for-small</id>
 		<author>
 			<name>Administrator</name>
 		</author>
@@ -73,10 +73,10 @@
 	</entry>
 	<entry>
 		<title>Where To Look For Cheap Brochure</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/82-where-to-look-for-cheap-brochure"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/82-where-to-look-for-cheap-brochure"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/82-where-to-look-for-cheap-brochure</id>
+		<id>https://stk.example/hope/index.php/resource-center/82-where-to-look-for-cheap-brochure</id>
 		<author>
 			<name>Administrator</name>
 		</author>
@@ -88,10 +88,10 @@
 	</entry>
 	<entry>
 		<title>First charity activity of this summer</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/83-first-charity-activity-of-this-summer"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/83-first-charity-activity-of-this-summer"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/83-first-charity-activity-of-this-summer</id>
+		<id>https://stk.example/hope/index.php/resource-center/83-first-charity-activity-of-this-summer</id>
 		<author>
 			<name>Administrator</name>
 		</author>
@@ -103,10 +103,10 @@
 	</entry>
 	<entry>
 		<title>Building clean-water system for rural poor</title>
-		<link rel="alternate" type="text/html" href="https://friendsoflaketurkana.org/hope/index.php/resource-center/84-building-clean-water-system-for-rural-poor"/>
+		<link rel="alternate" type="text/html" href="https://stk.example/hope/index.php/resource-center/84-building-clean-water-system-for-rural-poor"/>
 		<published>2021-12-20T12:13:57+00:00</published>
 		<updated>2021-12-20T12:13:57+00:00</updated>
-		<id>https://friendsoflaketurkana.org/hope/index.php/resource-center/84-building-clean-water-system-for-rural-poor</id>
+		<id>https://stk.example/hope/index.php/resource-center/84-building-clean-water-system-for-rural-poor</id>
 		<author>
 			<name>Administrator</name>
 		</author>
