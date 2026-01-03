@@ -12,18 +12,9 @@
 # http://tool.motoricerca.info/robots-checker.phtml
 
 User-agent: *
-Disallow: /administrator/
-Disallow: /bin/
-Disallow: /cache/
-Disallow: /cli/
-Disallow: /components/
-Disallow: /includes/
-Disallow: /installation/
-Disallow: /language/
-Disallow: /layouts/
-Disallow: /libraries/
-Disallow: /logs/
-Disallow: /modules/
-Disallow: /plugins/
-Disallow: /tmp/
 
+# Prevent indexing duplicate site copies
+Disallow: /hope/
+
+# Sitemap
+Sitemap: https://seryeetaabkaheritage.com/sitemap.xml
