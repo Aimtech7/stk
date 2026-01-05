@@ -1142,6 +1142,14 @@ dl.article-info dd.hits span[class*=" icon-"] {
   -webkit-transform: translateX(0);
   transform: translateX(0);
 }
+
+/* Ensure offcanvas appears when .offcanvas class is present */
+.off-canvas-menu-init.offcanvas .offcanvas-menu {
+  visibility: visible;
+  right: 0;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
 .offcanvas .offcanvas-menu ul.nav-child li {
   padding-left: 10px;
 }
