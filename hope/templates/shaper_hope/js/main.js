@@ -9,82 +9,123 @@ jQuery(function ($) {
   // ************    START Helix 1.4 JS    ************** //
   // **************************************************** //
 
+  function ensureOffcanvasUI() {
+    if ($(".offcanvas-menu").length) {
+      if ($(".offcanvas-menu .close-offcanvas").length === 0) {
+        $(".offcanvas-menu").prepend(
+          '<a href="#" class="close-offcanvas" aria-label="Close Menu">&times;</a>'
+        );
+      }
+      if ($(".offcanvas-overlay").length === 0) {
+        $('<div class="offcanvas-overlay"></div>').insertBefore(
+          ".offcanvas-menu"
+        );
+      }
+    }
+  }
+
   //Default
   if (typeof sp_offanimation === "undefined" || sp_offanimation === "") {
     sp_offanimation = "default";
   }
 
   if (sp_offanimation == "default") {
-    $("#offcanvas-toggler").on("click", function (event) {
+    ensureOffcanvasUI();
+    $(document).on("click", "#offcanvas-toggler", function (event) {
       event.preventDefault();
       $(".off-canvas-menu-init").addClass("offcanvas");
     });
 
-    $('<div class="offcanvas-overlay"></div>').insertBefore(".offcanvas-menu");
-    $(".close-offcanvas, .offcanvas-overlay").on("click", function (event) {
-      event.preventDefault();
-      $(".off-canvas-menu-init").removeClass("offcanvas");
-    });
+    ensureOffcanvasUI();
+    $(document).on(
+      "click",
+      ".close-offcanvas, .offcanvas-overlay",
+      function (event) {
+        event.preventDefault();
+        $(".off-canvas-menu-init").removeClass("offcanvas");
+      }
+    );
   }
 
   // Slide Top Menu
   if (sp_offanimation == "slidetop") {
-    $("#offcanvas-toggler").on("click", function (event) {
+    ensureOffcanvasUI();
+    $(document).on("click", "#offcanvas-toggler", function (event) {
       event.preventDefault();
       $(".off-canvas-menu-init").addClass("slide-top-menu");
     });
 
-    $('<div class="offcanvas-overlay"></div>').insertBefore(".offcanvas-menu");
-    $(".close-offcanvas, .offcanvas-overlay").on("click", function (event) {
-      event.preventDefault();
-      $(".off-canvas-menu-init").removeClass("slide-top-menu");
-    });
+    ensureOffcanvasUI();
+    $(document).on(
+      "click",
+      ".close-offcanvas, .offcanvas-overlay",
+      function (event) {
+        event.preventDefault();
+        $(".off-canvas-menu-init").removeClass("slide-top-menu");
+      }
+    );
   }
 
   //Full Screen
   if (sp_offanimation == "fullscreen") {
-    $("#offcanvas-toggler").on("click", function (event) {
+    ensureOffcanvasUI();
+    $(document).on("click", "#offcanvas-toggler", function (event) {
       event.preventDefault();
       $(".off-canvas-menu-init").addClass("full-screen-off-canvas");
     });
     $(document).ready(function () {
       $(".off-canvas-menu-init").addClass("full-screen");
     });
-    $(".close-offcanvas, .offcanvas-overlay").on("click", function (event) {
-      event.preventDefault();
-      $(".off-canvas-menu-init").removeClass("full-screen-off-canvas");
-    });
+    $(document).on(
+      "click",
+      ".close-offcanvas, .offcanvas-overlay",
+      function (event) {
+        event.preventDefault();
+        $(".off-canvas-menu-init").removeClass("full-screen-off-canvas");
+      }
+    );
   }
 
   //Full screen from top
   if (sp_offanimation == "fullScreen-top") {
-    $("#offcanvas-toggler").on("click", function (event) {
+    ensureOffcanvasUI();
+    $(document).on("click", "#offcanvas-toggler", function (event) {
       event.preventDefault();
       $(".off-canvas-menu-init").addClass("full-screen-off-canvas-ftop");
     });
     $(document).ready(function () {
       $(".off-canvas-menu-init").addClass("full-screen-ftop");
     });
-    $(".close-offcanvas, .offcanvas-overlay").on("click", function (event) {
-      event.preventDefault();
-      $(".off-canvas-menu-init").removeClass("full-screen-off-canvas-ftop");
-    });
+    $(document).on(
+      "click",
+      ".close-offcanvas, .offcanvas-overlay",
+      function (event) {
+        event.preventDefault();
+        $(".off-canvas-menu-init").removeClass("full-screen-off-canvas-ftop");
+      }
+    );
   }
 
   //Dark with plus
   if (sp_offanimation == "drarkplus") {
-    $("#offcanvas-toggler").on("click", function (event) {
+    ensureOffcanvasUI();
+    $(document).on("click", "#offcanvas-toggler", function (event) {
       event.preventDefault();
       $(".off-canvas-menu-init").addClass("new-look-off-canvas");
     });
-    $('<div class="offcanvas-overlay"></div>').insertBefore(".offcanvas-menu");
+
+    ensureOffcanvasUI();
     $(document).ready(function () {
       $(".off-canvas-menu-init").addClass("new-look");
     });
-    $(".close-offcanvas,.offcanvas-overlay").on("click", function (event) {
-      event.preventDefault();
-      $(".off-canvas-menu-init").removeClass("new-look-off-canvas");
-    });
+    $(document).on(
+      "click",
+      ".close-offcanvas,.offcanvas-overlay",
+      function (event) {
+        event.preventDefault();
+        $(".off-canvas-menu-init").removeClass("new-look-off-canvas");
+      }
+    );
   }
 
   // if sticky header
