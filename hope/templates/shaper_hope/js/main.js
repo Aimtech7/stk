@@ -24,6 +24,20 @@ jQuery(function ($) {
     }
   }
 
+  function populateOffcanvasMenu() {
+    var $offcanvas = $(".offcanvas-menu .offcanvas-inner");
+    var $desktopNav = $(".sp-megamenu-parent.menu-fade");
+    if ($offcanvas.length && $desktopNav.length && $offcanvas.find("ul").length === 0) {
+      var $clone = $desktopNav.clone();
+      $clone.removeClass("menu-fade d-none d-lg-block").addClass("offcanvas-nav");
+      $offcanvas.prepend($clone);
+    }
+  }
+
+  $(document).ready(function () {
+    populateOffcanvasMenu();
+  });
+
   //Default
   if (typeof sp_offanimation === "undefined" || sp_offanimation === "") {
     sp_offanimation = "default";
